@@ -1,0 +1,31 @@
+body{
+    background-color: grey !important;
+}
+h1{
+    margin-bottom: 40px !important;
+}
+.col{
+    height: 500px;
+    width: 500px;
+    background: white;
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+input{
+
+    text-align: center;
+}
+
+.row{
+    text-align: center;   
+    margin-top: 50px;
+}
+
+button{
+    border-radius: 10px;
+}

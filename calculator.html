@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tip Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="calculator.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="col">
+            <div class="row">
+                <h1>Tip Calculator</h1>
+                <input id="billInput" placeholder="Enter Bill Amount"></input>
+            </div>
+            <!-- <div class="row">
+                <select>
+                    <option id="small" value="small">15%</option>
+                    <option id="medium" value="medium">20%</option>
+                    <option id="large"value="large">25%</option>
+                </select>
+            </div> -->
+            <div class="row">
+                <button id="button" data-action="multiply">Calculate Tip</button>
+            </div>
+            <div class="row">
+                <input id="tipAmount" placeholder=" Tip Amount"></input>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="calculator.js"></script>
+</html>
