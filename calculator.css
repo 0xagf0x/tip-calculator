@@ -1,5 +1,5 @@
 body{
-    background-color: grey !important;
+    background-color: #273954 !important;
 }
 h1{
     margin-bottom: 40px !important;
@@ -28,4 +28,8 @@ input{
 
 button{
     border-radius: 10px;
+}
+
+#tipAmount{
+    width: 30% !important;
 }
