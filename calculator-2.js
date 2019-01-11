@@ -4,16 +4,13 @@ function calculateTip() {
     var smallTip = .15;
     var medTip = .18;
     var largeTip = .2;
-
-
+    
     //Make sure user types in a number
     if (billInput === "" || billInput === "0") {
         console.log("Please enter a value");
         document.getElementById("tipAmount").value = "Please enter an amount";
         return;
     }
-
-   
     //Calculate tip
     var total;
 
@@ -25,9 +22,6 @@ function calculateTip() {
         total = billInput * largeTip;
 
     }
-
-
-
     //round to two decimal places
     total = Math.round(total * 100) / 100;
     //next line allows two digits after decimal point
@@ -36,10 +30,8 @@ function calculateTip() {
     //Display the tip
     document.getElementById("tipAmount").value = total;
 
-
 }
 
 document.getElementById('button').onclick = function () {
     calculateTip();
-
 };
